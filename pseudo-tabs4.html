@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pseudo</title>
+    <style>
+        body{
+            background-color: teal;
+        }
+        .tabs{
+            border: 3px solid white;
+            list-style: none;
+            margin: 30px;
+            padding: 5px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 10px black;
+        }
+        .tabs:hover{
+            box-shadow: 0 0 20px 20px orange;
+            transition: 0.90s;
+        }
+        .tabs-item1{
+            border: 3px solid rgb(50, 4, 215);
+            border-radius: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 95px;
+            height: 90px;
+            text-align: center;
+            padding: 10px;
+        
+        }
+        .tabs-item1:hover{
+            box-shadow: 0 0 10px 10px greenyellow;
+            transition: 0.90s;
+        }
+        .tabs-item2{
+            border: 3px solid rgb(216, 7, 231);
+            border-radius: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 95px;
+            height: 90px;
+            text-align: center;
+            padding: 10px;
+        }
+        .tabs-item2:hover{
+            box-shadow: 0 0 10px 10px rgb(12, 230, 182);
+            transition: 0.90s;
+        }
+        .tabs-item3{
+            border: 3px solid rgb(239, 15, 15);
+            border-radius: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 95px;
+            height: 90px;
+            text-align: center;
+            padding: 10px;
+        }
+        .tabs-item3:hover{
+            box-shadow: 0 0 10px 10px rgb(147, 47, 255);
+            transition: 0.90s;
+        }
+        .tabs-a1{
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+        }
+        .tabs-a2{
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+        }
+        .tabs-a3{
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+        }
+        .point1{
+            background-color: aliceblue;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 17px;
+            height: 17px;
+            line-height: 3px;
+            transform: translateX(83px) translateY(-77px);
+            opacity: 0;
+        }
+        .point1:hover{
+            background-color: rgb(231, 226, 223);
+            opacity: 0.5;
+            transition: 0.90s;
+            box-shadow: 0 0 10px 10px red;
+        }
+        .point2{
+            background-color: aliceblue;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 17px;
+            height: 17px;
+            line-height: 3px;
+            transform: translateX(83px) translateY(-77px);
+            opacity: 0;
+        }
+        .point2:hover{
+            background-color: rgb(231, 226, 223);
+            opacity: 0.5;
+            transition: 0.90s;
+            box-shadow: 0 0 10px 10px rgb(202, 231, 12);
+        }
+        .point3{
+            background-color: aliceblue;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 17px;
+            height: 17px;
+            line-height: 3px;
+            transform: translateX(83px) translateY(-77px);
+            opacity: 0;
+        }
+        .point3:hover{
+            background-color: rgb(231, 226, 223);
+            opacity: 0.5;
+            transition: 0.90s;
+            box-shadow: 0 0 10px 10px rgb(10, 241, 52);
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="tabs">
+        <li class="tabs-item1">
+            <img src="https://icons.iconarchive.com/icons/graphics-vibe/spring-social/48/youtube-icon.png" 
+            alt="youtube">
+            <a class="tabs-a1"
+            href="#">youtube
+            </a>
+                <div class="point1">
+                    .
+                <br/>
+                    .
+                <br/>
+                    .
+                </div>
+        </li>
+
+
+
+        <li class="tabs-item2">
+            <img src="https://icons.iconarchive.com/icons/spoon-graphics/doodle/48/Facebook-icon.png" 
+            alt="facebook">
+            <a class="tabs-a2"
+            href="#">facebook
+            </a>
+
+            <div class="point2">
+                .
+            <br/>
+                .
+            <br/>
+                .
+            </div>
+        </li>
+
+
+
+        <li class="tabs-item3">
+            <img src="https://icons.iconarchive.com/icons/ampeross/qetto/48/chrome-2-icon.png" 
+            alt="google">
+            <a class="tabs-a3"
+            href="#">google
+            </a>
+
+            <div class="point3">
+                .
+            <br/>
+                .
+            <br/>
+                .
+            </div>
+        </li>
+    </ul>
+    
+</body>
+</html>
